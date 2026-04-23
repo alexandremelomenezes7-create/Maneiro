@@ -19,7 +19,7 @@ export class App implements OnInit {
   private platformId = inject(PLATFORM_ID);
  
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://apitarefas-vilacio255047-sandro253897.up.railway.app';
+    this.apiURL = 'apitarefasalexandre254145felipe253550.up.railway.app';
   }
  
   async ngOnInit(): Promise<void> {
